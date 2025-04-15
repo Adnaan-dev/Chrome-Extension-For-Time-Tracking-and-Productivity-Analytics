@@ -55,7 +55,7 @@ A smart **Chrome Extension** to monitor time spent on websites and analyze your 
 ![Dashboard View](https://github.com/user-attachments/assets/14528c73-7bd2-4fe7-80bc-c7df02c7d51b)
 
 ### MongoDB Data Stored Successfully
-![Image](https://github.com/user-attachments/assets/c779e4de-2dff-4186-91c8-fc4d24449dbe)
+![Image](https://github.com/user-attachments/assets/526120d9-723a-4d8a-a7dc-d6641aaa2650)
 
 ---
 
