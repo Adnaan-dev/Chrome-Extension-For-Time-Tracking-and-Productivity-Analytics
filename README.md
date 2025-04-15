@@ -45,16 +45,16 @@ A smart **Chrome Extension** to monitor time spent on websites and analyze your 
 
 ## 📷 Screenshots
 ### Popup UI
-![Popup UI](https://github.com/user-attachments/assets/b3bd156d-ee2e-48df-82e5-24054c8622d9)
+![Popup UI](https://github.com/user-attachments/assets/c258560e-9984-462f-aa80-0fc4ef87530b)
 
 ### Dashboard View 1
-![Image](https://github.com/user-attachments/assets/779f779d-14d1-428f-b07f-f90aea6079fe)
+![Image](https://github.com/user-attachments/assets/c4242649-382a-4cc4-a72e-15ad7d29844b)
 
-![Image](https://github.com/user-attachments/assets/4b0b2e77-e994-4e35-bfa2-2f4353ecf4aa)
+![Image](https://github.com/user-attachments/assets/c6ab53fe-a192-4581-bd47-3e638d2807ca)
 
 ### Dashboard View 2
 
-![Dashboard View](https://github.com/user-attachments/assets/1a8e0b3f-85d7-4b4a-b630-2f9d0d3f40d9)
+![Dashboard View](https://github.com/user-attachments/assets/14528c73-7bd2-4fe7-80bc-c7df02c7d51b)
 
 ---
 
