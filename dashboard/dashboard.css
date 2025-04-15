@@ -1,0 +1,159 @@
+:root {
+    --bg: #f4fff1;
+    --text: #222;
+    --nav-bg: #d9f2dd;
+    --card-bg: white;
+    --heading: #1a6600;
+    --btn-bg: #276b00;
+    --btn-hover: #1c4800;
+  }
+  
+  body.dark {
+    --bg: #121212;
+    --text: #e0e0e0;
+    --nav-bg: #1f1f1f;
+    --card-bg: #2a2a2a;
+    --heading: #64ffda;
+    --btn-bg: #333;
+    --btn-hover: #444;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: var(--nav-bg);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .toggle-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+  }
+  
+  /* Header */
+  .page-header {
+    text-align: center;
+    padding: 30px 15px 10px;
+    background-color: var(--card-bg);
+  }
+  
+  .page-header h1 {
+    font-size: 2rem;
+    color: var(--heading);
+    margin-bottom: 5px;
+  }
+  
+  .page-header p {
+    font-size: 1rem;
+    color: gray;
+  }
+  
+  /* Main Content */
+  .main-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Summary */
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  
+  .summary-item {
+    flex: 1;
+    background-color: var(--card-bg);
+    border-left: 5px solid var(--btn-bg);
+    padding: 15px;
+    font-size: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Tables */
+  .table-section {
+    margin-top: 40px;
+  }
+  
+  .section-heading {
+    font-size: 1.3rem;
+    color: var(--heading);
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--card-bg);
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  th {
+    background-color: var(--btn-bg);
+    color: white;
+  }
+  
+  /* Button */
+  button {
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: var(--btn-bg);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--btn-hover);
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    background-color: var(--nav-bg);
+    color: gray;
+  }
+  

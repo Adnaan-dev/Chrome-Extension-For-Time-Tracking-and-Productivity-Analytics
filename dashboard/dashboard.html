@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Productivity Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <img src="https://img.icons8.com/fluency/48/combo-chart.png" alt="Logo" />
+      <span >Time Tracking and Productivity Analytics</span>
+    </div>
+    <div class="nav-right">
+      <label class="toggle-label">
+        🌙 Dark Mode
+        <input type="checkbox" id="darkModeToggle" />
+      </label>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="page-header">
+    <h1>📊 Weekly Productivity Report</h1>
+    <p>Monitor your productive and unproductive website usage in one place</p>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- Summary Section -->
+    <section class="summary">
+      <div class="summary-item" id="total-productive">✅ Productive Time: 0s</div>
+      <div class="summary-item" id="total-unproductive">❌ Unproductive Time: 0s</div>
+    </section>
+
+    <!-- Productive Table -->
+    <section class="table-section">
+      <h2 class="section-heading">🟢 Productive Sites</h2>
+      <input type="text" id="productive-search" placeholder="Search productive site..." />
+      <table id="productive-table">
+        <thead>
+          <tr><th>Website</th><th>Time Spent (s)</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <!-- Unproductive Table -->
+    <section class="table-section">
+      <h2 class="section-heading">🔴 Unproductive Sites</h2>
+      <input type="text" id="unproductive-search" placeholder="Search unproductive site..." />
+      <table id="unproductive-table">
+        <thead>
+          <tr><th>Website</th><th>Time Spent (s)</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <button id="download-report">📥 Download Report</button>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Made with ❤️ by Jan Adnan Farooq | <span id="year"></span></p>
+  </footer>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

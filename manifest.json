@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Time Tracker & Productivity Analytics",
+    "version": "1.0",
+    "description": "Tracks time spent on websites and provides productivity analytics.",
+    "permissions": ["storage", "tabs", "activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_popup": "popup/popup.html"
+    }
+  }
+  
